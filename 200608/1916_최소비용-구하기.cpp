@@ -9,7 +9,7 @@ using namespace std;
 
 // 1. 도시간 최소비용 => 다익스트라.
 // 2. 우선순위 큐 이용.
-
+typedef pair<int, int> pi;
 int map[1001][1001];
 int dist[1001];
 int INF = 987654321;
@@ -17,7 +17,7 @@ int n, m;
 
 // 1.
 int dji(int start, int end) {
-	priority_queue<pair<int, int>> pq;
+	priority_queue<pi,vector<pi>,greater<pi>> pq;
 
 	pq.push({ 0,start });
 	dist[start] = 0;
