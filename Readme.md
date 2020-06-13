@@ -1,12 +1,12 @@
 # 캐치 알고리즘 스터디
 
-1주일마다 백준 6 + 프로그래머스  1문제 풀이 + 현장 1문제 풀이
+1주일마다 백준 6 + 프로그래머스  1문제 풀이 + 현장 1문제 풀이  
 백준 : [B] , 프로그래머스 : [P]
 
 ### 6월 2주차
 문제 | 문제링크| 코드링크| 해설
 -|-|-|-|
-[B] 2504번 괄호의 값 | [문제](https://www.acmicpc.net/problem/2504)| [코드](https://github.com/catch4/yisoo/blob/master/200608/2504_%EA%B4%84%ED%98%B8%EC%9D%98-%EA%B0%92.cpp) | [해설](https://gashe-soo.github.io/algorithm/2020/06/12/2502.html)|
+[B] 2504번 괄호의 값 | [문제](https://www.acmicpc.net/problem/2504)| [코드](https://github.com/catch4/yisoo/blob/master/200608/2504_%EA%B4%84%ED%98%B8%EC%9D%98-%EA%B0%92.cpp) | [해설](https://gashe-soo.github.io/algorithm/2020/06/12/BOJ2502.html)|
 [B] 1916번 최소비용 구하기|[문제](https://www.acmicpc.net/problem/1916)|[코드](https://github.com/catch4/yisoo/blob/master/200608/1916_%EC%B5%9C%EC%86%8C%EB%B9%84%EC%9A%A9-%EA%B5%AC%ED%95%98%EA%B8%B0.cpp)| [해설](https://gashe-soo.github.io/algorithm/2020/06/13/BOJ1916.html)
 [B] 16235번 나무 재테크|[문제](https://www.acmicpc.net/problem/16235)|[코드](https://github.com/catch4/yisoo/blob/master/200608/16235_%EB%82%98%EB%AC%B4-%EC%9E%AC%ED%85%8C%ED%81%AC.cpp)|[해설](https://gashe-soo.github.io/algorithm/2020/06/13/BOJ16235.html)
 [B] 2661번 좋은 수열|[문제](https://www.acmicpc.net/problem/2661)|[코드](https://github.com/catch4/yisoo/blob/master/200608/2661_%EC%A2%8B%EC%9D%80-%EC%88%98%EC%97%B4.cpp)|[해설](https://gashe-soo.github.io/algorithm/2020/06/13/BOJ2661.html)
