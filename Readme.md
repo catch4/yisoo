@@ -5,6 +5,21 @@
 
 
 
+### 6월 4주차(06/22-06/28)
+
+| 문제                      | 문제링크                                                     | 코드링크                                                     | 해설 | 비고  |
+| ------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---- | ----- |
+| [B] 2178번 미로탐색       | [문제](https://www.acmicpc.net/problem/2178)                 | [코드](https://github.com/catch4/yisoo/blob/master/200622/2178_미로탐색.cpp) |      | solve |
+| [B] 15684번 사다리 조작   | [문제](https://www.acmicpc.net/problem/15684)                | [코드](https://github.com/catch4/yisoo/blob/master/200622/15684_사다리-조작.cpp) |      | solve |
+| [B] 16637번 괄호 추가하기 | [문제](https://www.acmicpc.net/problem/16637)                | [코드](https://github.com/catch4/yisoo/blob/master/200622/16637_괄호-추가하기.cpp) |      | solve |
+| [B] 17244번 아맞다우산    | [문제](https://www.acmicpc.net/problem/17244)                | [코드](https://github.com/catch4/yisoo/blob/master/200622/17244_아맞다우산.cpp) |      | solve |
+| [B] 13460번 구슬 탈출 2   | [문제](https://www.acmicpc.net/problem/13460)                | [코드](https://github.com/catch4/yisoo/blob/master/200622/13460_구슬-탈출-2.cpp) |      | fail  |
+| [B] 4195번 친구 네트워크  | [문제](https://www.acmicpc.net/problem/4195)                 | [코드](https://github.com/catch4/yisoo/blob/master/200622/4195_친구-네트워크.cpp) |      | fail  |
+| [P] level2 단체사진 찍기  | [문제](https://programmers.co.kr/learn/courses/30/lessons/1835) | [코드](https://github.com/catch4/yisoo/blob/master/200622/level2_단체사진-찍기.cpp) |      | solve |
+| [P] level2 후보키         | [문제](https://programmers.co.kr/learn/courses/30/lessons/42890) | [코드](https://github.com/catch4/yisoo/blob/master/200622/level2_후보키.cpp) |      | solve |
+
+
+
 ### 6월 3주차(06/15-06/21)
 
 | 문제                                 | 문제링크                                                     | 코드링크                                                     | 해설                                                         | 비고  |
