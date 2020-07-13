@@ -1,5 +1,12 @@
 // 백준 10159번 저울
 
+/*
+의도는 플로이드 와샬이었으나
+풀이는 dfs로 연결된 노드 개수 세기
+
+*/
+
+
 #include <iostream>
 #include <stack>
 #include <cstring>
