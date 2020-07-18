@@ -16,16 +16,16 @@
 
 ### 7주차 (07/13-07/19)
 
-| 문제                       | 문제링크                                                     | 코드링크 | 해설 | 비고  |
-| -------------------------- | ------------------------------------------------------------ | -------- | ---- | ----- |
-| [B] 16236번 아기 상어      | [문제](https://www.acmicpc.net/problem/16236)                |          |      | solve |
-| [B] 2151번 거울 설치       | [문제](https://www.acmicpc.net/problem/2151)                 |          |      | solve |
-| [B] 1937번 욕심쟁이 판다   | [문제](https://www.acmicpc.net/problem/1937)                 |          |      | solve |
-| [B] 6209번 제자리 멀리뛰기 | [문제](https://www.acmicpc.net/problem/6209)                 |          |      | solve |
-| [B] 16681번 등산           | [문제](https://www.acmicpc.net/problem/16681)                |          |      | fail  |
-| [B] 3430번 용이 산다       | [문제](https://www.acmicpc.net/problem/3430)                 |          |      |       |
-| [P] level2 뉴스 클러스터링 | [문제](https://programmers.co.kr/learn/courses/30/lessons/17677) |          |      | solve |
-| [P] level3 보석 쇼핑       | [문제](https://programmers.co.kr/learn/courses/30/lessons/67258) |          |      | solve |
+| 문제                       | 문제링크                                                     | 코드링크                                                     | 해설 | 비고  |
+| -------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---- | ----- |
+| [B] 16236번 아기 상어      | [문제](https://www.acmicpc.net/problem/16236)                | [코드](https://github.com/catch4/yisoo/blob/master/week_7/16236_아기상어.cpp) |      | solve |
+| [B] 2151번 거울 설치       | [문제](https://www.acmicpc.net/problem/2151)                 | [코드](https://github.com/catch4/yisoo/blob/master/week_7/2151_거울-설치.cpp) |      | solve |
+| [B] 1937번 욕심쟁이 판다   | [문제](https://www.acmicpc.net/problem/1937)                 | [코드](https://github.com/catch4/yisoo/blob/master/week_7/1937_욕심쟁이-판다.cpp) |      | solve |
+| [B] 6209번 제자리 멀리뛰기 | [문제](https://www.acmicpc.net/problem/6209)                 | [코드](https://github.com/catch4/yisoo/blob/master/week_7/6209_제자리-멀리뛰기.cpp) |      | solve |
+| [B] 16681번 등산           | [문제](https://www.acmicpc.net/problem/16681)                | [코드](https://github.com/catch4/yisoo/blob/master/week_7/16681_등산.cpp) |      | fail  |
+| [B] 3430번 용이 산다       | [문제](https://www.acmicpc.net/problem/3430)                 | [코드](https://github.com/catch4/yisoo/blob/master/week_7/3430_용이-산다.cpp) |      | fail  |
+| [P] level2 뉴스 클러스터링 | [문제](https://programmers.co.kr/learn/courses/30/lessons/17677) | [코드](https://github.com/catch4/yisoo/blob/master/week_7/level2_뉴스-클러스터링.cpp) |      | solve |
+| [P] level3 보석 쇼핑       | [문제](https://programmers.co.kr/learn/courses/30/lessons/67258) | [코드](https://github.com/catch4/yisoo/blob/master/week_7/level3_보석-쇼핑.cpp) |      | solve |
 
 
 
