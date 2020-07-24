@@ -1,17 +1,17 @@
-// ¹éÁØ 2252¹ø ÁÙ ¼¼¿ì±â
+// ë°±ì¤€ 2252ë²ˆ ì¤„ ì„¸ìš°ê¸°
 
 /*
-¹æÇâ°ú °¡ÁßÄ¡°¡ ÀÖ´Â ±×·¡ÇÁÀÌ¹Ç·Î À§»ó Á¤·ÄÀ» »ç¿ë
+ë°©í–¥ê³¼ ê°€ì¤‘ì¹˜ê°€ ìžˆëŠ” ê·¸ëž˜í”„ì´ë¯€ë¡œ ìœ„ìƒ ì •ë ¬ì„ ì‚¬ìš©
 
-Ç®ÀÌ: À§»ó Á¤·Ä
-0. ¹è¿­ 3°³·Î Ç®ÀÌ
-	¾Õ¿¡ ¼­´Â ÇÐ»ýÀÇ ¼ö: p 
-	µÚ¿¡ ¼­´Â ÇÐ»ýÀÇ ¹è¿­ : arr
-	¹æ¹®Çß´ÂÁö È®ÀÎÇÏ´Â ¹è¿­ : v
-1. a¿Í b¸¦ ÀÔ·Â¹Þ¾Æ p[b] Áõ°¡, arr[a]¿¡ b Ãß°¡
-2. p[i]°¡ 0ÀÎ °æ¿ì Å¥¿¡ push
-3. ¿¬°áµÈ °£¼±À» »èÁ¦.
-4. ¿¬°áµÇ¾î ÀÖ´ø ³ëµåÀÇ p°ªÀÌ 0ÀÌ µÈ´Ù¸é Å¥¿¡ push
+í’€ì´: ìœ„ìƒ ì •ë ¬
+0. ë°°ì—´ 3ê°œë¡œ í’€ì´
+	ì•žì— ì„œëŠ” í•™ìƒì˜ ìˆ˜: p 
+	ë’¤ì— ì„œëŠ” í•™ìƒì˜ ë°°ì—´ : arr
+	ë°©ë¬¸í–ˆëŠ”ì§€ í™•ì¸í•˜ëŠ” ë°°ì—´ : v
+1. aì™€ bë¥¼ ìž…ë ¥ë°›ì•„ p[b] ì¦ê°€, arr[a]ì— b ì¶”ê°€
+2. p[i]ê°€ 0ì¸ ê²½ìš° íì— push
+3. ì—°ê²°ëœ ê°„ì„ ì„ ì‚­ì œ.
+4. ì—°ê²°ë˜ì–´ ìžˆë˜ ë…¸ë“œì˜ pê°’ì´ 0ì´ ëœë‹¤ë©´ íì— push
 
 */
 
@@ -24,7 +24,6 @@ using namespace std;
 int n, m;
 int p[32001];
 vector<int> arr[32001];
-bool v[32001];
 
 int main() {
 	ios_base::sync_with_stdio(false); cin.tie(0); cout.tie(0);
@@ -39,12 +38,10 @@ int main() {
 	queue<int> q;
 	// 2.
 	for (int i = 1; i <= n; i++) {
-		if (p[i] == 0) {
-			q.push(i);
-			v[i] = true;
-		}
-			
+		if (p[i] == 0) 
+			q.push(i);	
 	}
+	
 	while (!q.empty()) {
 		int from = q.front();
 		q.pop();
@@ -53,10 +50,8 @@ int main() {
 			int to = arr[from][i];
 			p[to]--;	// 3.
 			// 4.
-			if (p[to] == 0 && !v[to]) {
+			if (p[to] == 0 )
 				q.push(to);
-				v[to] = true;
-			}
 		}
 	}
 
