@@ -8,9 +8,24 @@
 - solve : 혼자서 해결
 - fail : 풀이 참고 or 힌트 참고
 
-| 링크                          |                               |                               |                               |                               |                               |                               |
-| ----------------------------- | ----------------------------- | ----------------------------- | ----------------------------- | ----------------------------- | ----------------------------- | ----------------------------- |
-| [1주차](#1주차 (06/01~06/07)) | [2주차](#2주차 (06/08~06/14)) | [3주차](#3주차 (06/15-06/21)) | [4주차](#4주차 (06/22-06/28)) | [5주차](#5주차 (06/29-07/07)) | [6주차](#6주차 (07/08-07/12)) | [7주차](#7주차 (07/13-07/19)) |
+| 링크                          |                               |                               |                               |                               |                               |                               |                               |
+| ----------------------------- | ----------------------------- | ----------------------------- | ----------------------------- | ----------------------------- | ----------------------------- | ----------------------------- | ----------------------------- |
+| [1주차](#1주차 (06/01~06/07)) | [2주차](#2주차 (06/08~06/14)) | [3주차](#3주차 (06/15-06/21)) | [4주차](#4주차 (06/22-06/28)) | [5주차](#5주차 (06/29-07/07)) | [6주차](#6주차 (07/08-07/12)) | [7주차](#7주차 (07/13-07/19)) | [8주차](#8주차 (07/20-07/26)) |
+
+
+
+### 8주차 (07/20-07/26)
+
+| 문제                   | 문제링크                                                     | 코드링크                                                     | 해설                                                         | 비고  |
+| ---------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ----- |
+| [B] 1956번 운동        | [문제](https://www.acmicpc.net/problem/1956)                 | [코드](https://github.com/catch4/yisoo/blob/master/week_8/1956_운동.cpp) | [해설](https://gashe-soo.github.io/algorithm/2020/07/24/BOJ1956.html) | solve |
+| [B] 3980번 선발명단    | [문제](https://www.acmicpc.net/problem/3980)                 | [코드](https://github.com/catch4/yisoo/blob/master/week_8/3980_선발명단.cpp) | [해설](https://gashe-soo.github.io/algorithm/2020/07/24/BOJ3980.html) | solve |
+| [B] 2146번 다리만들기  | [문제](https://www.acmicpc.net/problem/2146)                 | [코드](https://github.com/catch4/yisoo/blob/master/week_8/2146_다리-만들기.cpp) |                                                              | solve |
+| [B] 2014번 소수의 곱   | [문제](https://www.acmicpc.net/problem/2014)                 | [코드](https://github.com/catch4/yisoo/blob/master/week_8/2014_소수의-곱.cpp) |                                                              | solve |
+| [B] 2252번 줄 세우기   | [문제](https://www.acmicpc.net/problem/2252)                 | [코드](https://github.com/catch4/yisoo/blob/master/week_8/2252_줄세우기.cpp) | [해설](https://gashe-soo.github.io/algorithm/2020/07/24/BOJ2252.html) | solve |
+| [B] 9576번 책 나눠주기 | [문제](https://www.acmicpc.net/problem/9576)                 | [코드](https://github.com/catch4/yisoo/blob/master/week_8/9576_책-나눠주기.cpp) | [해설](https://gashe-soo.github.io/algorithm/2020/07/24/BOJ9576.html) | solve |
+| [P] level2 땅따먹기    | [문제](https://programmers.co.kr/learn/courses/30/lessons/12913) | [코드](https://github.com/catch4/yisoo/blob/master/week_8/level2_땅따먹기.cpp) |                                                              | solve |
+| [P] level3 경주로 건설 | [문제](https://programmers.co.kr/learn/courses/30/lessons/67259) | [코드](https://github.com/catch4/yisoo/blob/master/week_8/level3_경주로-건설.cpp) |                                                              | fail  |
 
 
 
