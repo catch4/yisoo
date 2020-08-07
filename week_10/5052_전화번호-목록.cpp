@@ -1,5 +1,9 @@
 // 백준 5052번 전화번호 목록
 
+/*
+정렬하고 모든 원소가 앞뒤로 접두사가 아니라면 접두사가 없는 것이다. 
+*/
+
 #include <iostream>
 #include <string>
 #include <algorithm>
@@ -31,8 +35,6 @@ void solve(){
 	cout << "YES\n";
 	return;
 }
-
-
 
 int main() {
 	ios_base::sync_with_stdio(false); cin.tie(0); cout.tie(0);
