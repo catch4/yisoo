@@ -8,9 +8,25 @@
 - solve : 혼자서 해결
 - fail : 풀이 참고 or 힌트 참고
 
-| 링크                      |                           |                           |                           |                           |                           |                           |                           |                           |                             |
-| ------------------------- | ------------------------- | ------------------------- | ------------------------- | ------------------------- | ------------------------- | ------------------------- | ------------------------- | ------------------------- | --------------------------- |
-| [1주차](#1주차-0601~0607) | [2주차](#2주차-0608~0614) | [3주차](#3주차-0615-0621) | [4주차](#4주차-0622-0628) | [5주차](#5주차-0629-0707) | [6주차](#6주차-0708-0712) | [7주차](#7주차-0713-0719) | [8주차](#8주차-0720-0726) | [9주차](#9주차-0727-0802) | [10주차](#10주차-0803-0809) |
+| 링크                        |                           |                           |                           |                           |                           |                           |                           |                           |                             |
+| --------------------------- | ------------------------- | ------------------------- | ------------------------- | ------------------------- | ------------------------- | ------------------------- | ------------------------- | ------------------------- | --------------------------- |
+| [1주차](#1주차-0601~0607)   | [2주차](#2주차-0608~0614) | [3주차](#3주차-0615-0621) | [4주차](#4주차-0622-0628) | [5주차](#5주차-0629-0707) | [6주차](#6주차-0708-0712) | [7주차](#7주차-0713-0719) | [8주차](#8주차-0720-0726) | [9주차](#9주차-0727-0802) | [10주차](#10주차-0803-0809) |
+| [11주차](#11주차-0810-0817) |                           |                           |                           |                           |                           |                           |                           |                           |                             |
+
+
+
+### 11주차 (08/10-08/17)
+
+| 문제                        | 문제링크                                                     | 코드링크                                                     | 해설 | 비고  |
+| --------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---- | ----- |
+| [B] 15999번 뒤집기          | [문제](https://www.acmicpc.net/problem/15999)                | [코드](https://github.com/catch4/yisoo/blob/master/week_11/15999_뒤집기.cpp) |      | solve |
+| [B] 1342번 행운의 문자열    | [문제](https://www.acmicpc.net/problem/1342)                 | [코드](https://github.com/catch4/yisoo/blob/master/week_11/1342_행운의-문자열.cpp) |      | solve |
+| [B] 2931번 가스관           | [문제](https://www.acmicpc.net/problem/2931)                 | [코드](https://github.com/catch4/yisoo/blob/master/week_11/2931_가스관.cpp) |      | solve |
+| [B] 1509번 팰린드롬 분할    | [문제](https://www.acmicpc.net/problem/1509)                 | [코드](https://github.com/catch4/yisoo/blob/master/week_11/1509_팰린드롬-분할.cpp) |      | fail  |
+| [B] 3015번 오아시스 재결합  | [문제](https://www.acmicpc.net/problem/3015)                 | [코드](https://github.com/catch4/yisoo/blob/master/week_11/3015_오아시스-재결합.cpp) |      | solve |
+| [B] 7432번 디스크 트리      | [문제](https://www.acmicpc.net/problem/7432)                 | [코드](https://github.com/catch4/yisoo/blob/master/week_11/7432_디스크-트리.cpp) |      | fail  |
+| [P] level2 캐시             | [문제](https://programmers.co.kr/learn/courses/30/lessons/17680) | [코드](https://github.com/catch4/yisoo/blob/master/week_11/level2_캐시.cpp) |      | solve |
+| [P] level3 가장 긴 팰린드롬 | [문제](https://programmers.co.kr/learn/courses/30/lessons/12904) | [코드](https://github.com/catch4/yisoo/blob/master/week_11/level3_가장-긴-팰린드롬.cpp) |      | sovle |
 
 
 
@@ -25,7 +41,7 @@
 | [B] 2887번 행성 터널     | [문제](https://www.acmicpc.net/problem/2887)                 | [코드](https://github.com/catch4/yisoo/blob/master/week_10/2887_행성-터널.cpp) |      | solve |
 | [B] 1113번 수영장 만들기 | [문제](https://www.acmicpc.net/problem/1113)                 | [코드](https://github.com/catch4/yisoo/blob/master/week_10/1113_수영장-만들기.cpp) |      | solve |
 | [P] level3 입국심사      | [문제](https://programmers.co.kr/learn/courses/30/lessons/43238) | [코드](https://github.com/catch4/yisoo/blob/master/week_10/level3_입국심사.cpp) |      | solve |
-| [P] level3 베스트앨범    | [문제](https://programmers.co.kr/learn/courses/30/lessons/42579) | [코드](https://github.com/catch4/yisoo/blob/master/week_10/level3_베스트앨범.cpp) |      | sovle |
+| [P] level3 베스트앨범    | [문제](https://programmers.co.kr/learn/courses/30/lessons/42579) | [코드](https://github.com/catch4/yisoo/blob/master/week_10/level3_베스트앨범.cpp) |      | solve |
 
 
 
