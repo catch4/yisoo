@@ -1,13 +1,13 @@
 // 백준 9935번 문자열 폭발
 
 /*
-분류에 스택 적혀있는 걸 보고 스택 사용
-
+폭발 문자열하고 같으면 대조 확인
+폭발 문자열이면 폭발시킴
+아니면 원상복귀 후 다시 문자열 더하기
 */
 
 #include <iostream>
 #include <string>
-#include <stack>
 
 using namespace std;
 
