@@ -8,10 +8,39 @@
 - solve : 혼자서 해결
 - fail : 풀이 참고 or 힌트 참고
 
-| 링크                        |                           |                           |                           |                           |                           |                           |                           |                           |                             |
-| --------------------------- | ------------------------- | ------------------------- | ------------------------- | ------------------------- | ------------------------- | ------------------------- | ------------------------- | ------------------------- | --------------------------- |
-| [1주차](#1주차-0601~0607)   | [2주차](#2주차-0608~0614) | [3주차](#3주차-0615-0621) | [4주차](#4주차-0622-0628) | [5주차](#5주차-0629-0707) | [6주차](#6주차-0708-0712) | [7주차](#7주차-0713-0719) | [8주차](#8주차-0720-0726) | [9주차](#9주차-0727-0802) | [10주차](#10주차-0803-0809) |
-| [11주차](#11주차-0810-0817) |                           |                           |                           |                           |                           |                           |                           |                           |                             |
+| 링크                        |                             |                             |                           |                           |                           |                           |                           |                           |                             |
+| --------------------------- | --------------------------- | --------------------------- | ------------------------- | ------------------------- | ------------------------- | ------------------------- | ------------------------- | ------------------------- | --------------------------- |
+| [1주차](#1주차-0601~0607)   | [2주차](#2주차-0608~0614)   | [3주차](#3주차-0615-0621)   | [4주차](#4주차-0622-0628) | [5주차](#5주차-0629-0707) | [6주차](#6주차-0708-0712) | [7주차](#7주차-0713-0719) | [8주차](#8주차-0720-0726) | [9주차](#9주차-0727-0802) | [10주차](#10주차-0803-0809) |
+| [11주차](#11주차-0810-0817) | [12주차](#12주차-0818-0823) | [13주차](#13주차-0824-0830) |                           |                           |                           |                           |                           |                           |                             |
+
+### 13주차
+
+| 문제                      | 문제링크                                                     | 코드링크                                                     | 해설 | 비고  |
+| ------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---- | ----- |
+| [B] 1756번 피자 굽기      | [문제](https://www.acmicpc.net/problem/1756)                 | [코드](https://github.com/catch4/yisoo/blob/master/week_13/1756_피자-굽기.cpp) |      | solve |
+| [B] 15998번 카카오머니    | [문제](https://www.acmicpc.net/problem/15998)                | [코드](https://github.com/catch4/yisoo/blob/master/week_13/15998_카카오머니.cpp) |      | fail  |
+| [B] 7579번 앱             | [문제](https://www.acmicpc.net/problem/7579)                 | [코드](https://github.com/catch4/yisoo/blob/master/week_13/7579_앱.cpp) |      | solve |
+| [B] 17825번 주사위 윷놀이 | [문제](https://www.acmicpc.net/problem/17825)                | [코드](https://github.com/catch4/yisoo/blob/master/week_13/17825_주사위-윷놀이.cpp) |      | solve |
+| [B] 7575번 바이러스       | [문제](https://www.acmicpc.net/problem/7575)                 | [코드](https://github.com/catch4/yisoo/blob/master/week_13/7575_바이러스.cpp) |      | solve |
+| [B] 5719번 거의 최단 경로 | [문제](https://www.acmicpc.net/problem/5719)                 | [코드](https://github.com/catch4/yisoo/blob/master/week_13/5719_거의-최단-경로.cpp) |      | solve |
+| [P] level2 괄호 변환      | [문제](https://programmers.co.kr/learn/courses/30/lessons/60058) | [코드](https://github.com/catch4/yisoo/blob/master/week_13/level2_괄호-변환.py) |      | solve |
+| [P] level3 블록 이동하기  | [문제](https://programmers.co.kr/learn/courses/30/lessons/60063) | [코드](https://github.com/catch4/yisoo/blob/master/week_13/level3_블록-이동하기.cpp) |      | solve |
+
+
+
+### 12주차 (08/18-08/23)
+
+| 문제                     | 문제링크                                                     | 코드링크                                                     | 해설 | 비고  |
+| ------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ---- | ----- |
+| [B] 1043번 거짓말        | [문제](https://www.acmicpc.net/problem/1043)                 | [코드](https://github.com/catch4/yisoo/blob/master/week_12/1043_거짓말.cpp) |      | solve |
+| [B] 9935번 문자열 폭발   | [문제](https://www.acmicpc.net/problem/9935)                 | [코드](https://github.com/catch4/yisoo/blob/master/week_12/9935_문자열-폭발.cpp) |      | solve |
+| [B] 1701번 CubeEditor    | [문제](https://www.acmicpc.net/problem/1701)                 | [코드](https://github.com/catch4/yisoo/blob/master/week_12/1701_CubeEditor.cpp) |      | fail  |
+| [B] 3109번 빵집          | [문제](https://www.acmicpc.net/problem/3109)                 | [코드](https://github.com/catch4/yisoo/blob/master/week_12/3109_빵집.cpp) |      | solve |
+| [B] 1981번 배열에서 이동 | [문제](https://www.acmicpc.net/problem/1981)                 | [코드](https://github.com/catch4/yisoo/blob/master/week_12/1981_배열에서-이동.cpp) |      | fail  |
+| [B] 2618번 경찰차        | [문제](https://www.acmicpc.net/problem/2618)                 | [코드](https://github.com/catch4/yisoo/blob/master/week_12/2618_경찰차.cpp) |      | fail  |
+| [P] level2 영어 끝말잇기 | [문제](https://programmers.co.kr/learn/courses/30/lessons/12981) | [코드](https://github.com/catch4/yisoo/blob/master/week_12/level2_영어-끝말잇기.cpp) |      | solve |
+
+
 
 
 
@@ -26,7 +55,7 @@
 | [B] 3015번 오아시스 재결합  | [문제](https://www.acmicpc.net/problem/3015)                 | [코드](https://github.com/catch4/yisoo/blob/master/week_11/3015_오아시스-재결합.cpp) |      | solve |
 | [B] 7432번 디스크 트리      | [문제](https://www.acmicpc.net/problem/7432)                 | [코드](https://github.com/catch4/yisoo/blob/master/week_11/7432_디스크-트리.cpp) |      | fail  |
 | [P] level2 캐시             | [문제](https://programmers.co.kr/learn/courses/30/lessons/17680) | [코드](https://github.com/catch4/yisoo/blob/master/week_11/level2_캐시.cpp) |      | solve |
-| [P] level3 가장 긴 팰린드롬 | [문제](https://programmers.co.kr/learn/courses/30/lessons/12904) | [코드](https://github.com/catch4/yisoo/blob/master/week_11/level3_가장-긴-팰린드롬.cpp) |      | sovle |
+| [P] level3 가장 긴 팰린드롬 | [문제](https://programmers.co.kr/learn/courses/30/lessons/12904) | [코드](https://github.com/catch4/yisoo/blob/master/week_11/level3_가장-긴-팰린드롬.cpp) |      | solve |
 
 
 
