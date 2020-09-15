@@ -1,5 +1,12 @@
 // 백준 14427번 수열과 쿼리 15
 
+/*
+세그먼트 트리를 이용
+1. 처음에 arr 받아서 초기화, 최소값과 idx 저장
+2. 값이 변경되면 change 함수를 통해 해당 노드의 값을 변경
+3. 값이 모두 변경되면 update를 통해 구간별 최소값,idx 변경
+*/
+
 #include <cmath>
 #include <iostream>
 #include <vector>
