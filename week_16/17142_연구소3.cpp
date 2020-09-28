@@ -18,7 +18,7 @@ int dy[4] = { 0, 0, -1, 1 };
 void solve(vector<pi> arr)
 {
     queue<pi> q;
-    vector<vector<int>> dist(n, vector<int>(n, 0));
+    vector<vector<int>> dist(n, vector<int>(n, -1));
 
     for (pi p : arr) {
         q.push(p);
@@ -34,7 +34,7 @@ void solve(vector<pi> arr)
 
         for (int i = 0; i < 4; i++) {
             int nx = x + dx[i], ny = y + dy[i];
-            if (nx < 0 || nx >= n || ny < 0 || ny >= n || map[nx][ny] || dist[nx][ny])
+            if (nx < 0 || nx >= n || ny < 0 || ny >= n || map[nx][ny] == 1 || dist[nx][ny] != -1)
                 continue;
             q.push({ nx, ny });
             dist[nx][ny] = dist[x][y] + 1;
@@ -43,15 +43,16 @@ void solve(vector<pi> arr)
     int ret = 0;
     for (int i = 0; i < n; i++) {
         for (int j = 0; j < n; j++) {
-            if (dist[i][j] == 0 && map[i][j] == 0) {
+            if (dist[i][j] == -1 && map[i][j] == 0) {
                 return;
             }
+            if (map[i][j])
+                continue;
             ret = max(ret, dist[i][j]);
         }
     }
 
     answer = min(answer, ret);
-
     return;
 }
 
