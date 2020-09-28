@@ -18,6 +18,7 @@ int dy[4] = { 0, 0, -1, 1 };
 void solve(vector<pi> arr)
 {
     queue<pi> q;
+
     vector<vector<int>> dist(n, vector<int>(n, -1));
 
     for (pi p : arr) {
@@ -28,13 +29,9 @@ void solve(vector<pi> arr)
     while (!q.empty()) {
         int x = q.front().first, y = q.front().second;
         q.pop();
-
-        if (dist[x][y] > answer)
-            return;
-
         for (int i = 0; i < 4; i++) {
             int nx = x + dx[i], ny = y + dy[i];
-            if (nx < 0 || nx >= n || ny < 0 || ny >= n || map[nx][ny] == 1 || dist[nx][ny] != -1)
+            if (nx < 0 || nx >= n || ny < 0 || ny >= n || map[nx][ny] == 1 || dist[nx][ny] > -1)
                 continue;
             q.push({ nx, ny });
             dist[nx][ny] = dist[x][y] + 1;
@@ -43,9 +40,8 @@ void solve(vector<pi> arr)
     int ret = 0;
     for (int i = 0; i < n; i++) {
         for (int j = 0; j < n; j++) {
-            if (dist[i][j] == -1 && map[i][j] == 0) {
+            if (dist[i][j] == -1 && map[i][j] == 0)
                 return;
-            }
             if (map[i][j])
                 continue;
             ret = max(ret, dist[i][j]);
@@ -56,20 +52,16 @@ void solve(vector<pi> arr)
     return;
 }
 
-void go(vector<pi> arr, vector<bool> v, int idx)
+void go(vector<pi> arr, int idx)
 {
     if (arr.size() == m) {
         solve(arr);
         return;
     }
     for (int i = idx; i < virus.size(); i++) {
-        if (!v[i]) {
-            v[i] = true;
-            arr.push_back(virus[i]);
-            go(arr, v, i);
-            arr.pop_back();
-            v[i] = false;
-        }
+        arr.push_back(virus[i]);
+        go(arr, i + 1);
+        arr.pop_back();
     }
     return;
 }
@@ -90,12 +82,9 @@ int main()
             }
         }
     }
-    int size = virus.size();
-    vector<bool> v(size, 0);
-
     answer = 987654321;
 
-    go({}, v, 0);
+    go({}, 0);
     if (answer == 987654321)
         cout << -1;
     else
