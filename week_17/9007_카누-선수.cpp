@@ -1,5 +1,6 @@
 // 백준 9007번 카누 선수
 
+// 1+2, 3+4 해서 이분탐색으로 찾기
 #include <algorithm>
 #include <cmath>
 #include <iostream>

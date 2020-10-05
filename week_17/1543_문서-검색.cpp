@@ -1,5 +1,7 @@
 // 백준 1543번 문서 검색
 
+// word 찾으면 word.size만큼 이동
+
 #include <iostream>
 #include <string>
 
