@@ -1,6 +1,6 @@
-// ¹éÁØ 14284¹ø °£¼± ÀÌ¾î°¡±â 2
+// ë°±ì¤€ 14284ë²ˆ ê°„ì„  ì´ì–´ê°€ê¸°
 
-// ´ÙÀÍ½ºÆ®¶ó.
+// ë‹¤ìµìŠ¤íŠ¸ë¼
 
 #include <iostream>
 #include <queue>
