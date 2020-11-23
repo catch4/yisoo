@@ -1,6 +1,6 @@
 // 백준 20159번 동작 그만. 밑장 빼기냐?
 
-// 미완
+// 누적합
 #include <algorithm>
 #include <iostream>
 
@@ -23,6 +23,7 @@ int main()
 
     int ans = f[n / 2];
     for (int i = 0; i <= n / 2; i++) {
+        ans = max(ans, f[i] + s[n / 2 - 1] - s[i - 1]);
         ans = max(ans, f[i] + s[n / 2] - s[i]);
     }
 
