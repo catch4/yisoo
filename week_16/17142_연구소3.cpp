@@ -1,4 +1,4 @@
-// 백준 17142번 연구소3
+// 백준 17142번 연구소 3
 
 #include <algorithm>
 #include <iostream>
