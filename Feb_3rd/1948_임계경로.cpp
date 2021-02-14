@@ -1,5 +1,10 @@
 // 백준 1948번 임계경로
 
+/*
+위상정렬 + 역 bfs
+
+*/
+
 #include <algorithm>
 #include <iostream>
 #include <queue>
@@ -14,6 +19,7 @@ int time[MAX], p[MAX];
 int cnt;
 bool v[MAX];
 
+// 위상정렬로 최대 시간 계산
 void tpsort()
 {
     queue<int> q;
@@ -38,6 +44,7 @@ void tpsort()
     }
 }
 
+// 역방향 bfs로 계속 달려야하는 도로 개수 확인
 void go()
 {
     queue<int> q;
@@ -55,6 +62,7 @@ void go()
 
             if (cost == time[from] - time[to]) {
                 cnt++;
+                // 방문 정점 중복 제거
                 if (!v[to]) {
                     v[to] = 1;
                     q.push(to);
