@@ -14,7 +14,6 @@
 #include <algorithm>
 #include <cmath>
 #include <iostream>
-#include <set>
 #include <vector>
 
 using namespace std;
@@ -28,6 +27,7 @@ int map[16][16];
 bool v[16];
 int ans;
 vector<dist> arr[3];
+vector<pi> countOfRemover;
 
 bool cmp(dist a, dist b)
 {
@@ -37,6 +37,7 @@ bool cmp(dist a, dist b)
     return a.c < b.c;
 }
 
+// 궁수가 적 제거하는 과정
 int calcRemove(vector<int> archer)
 {
     int cnt = 0;
@@ -49,16 +50,21 @@ int calcRemove(vector<int> archer)
         }
     }
 
+    // 궁수가 한 칸씩 올라가면서 적 제거
     for (int archerRow = n; archerRow > 0; archerRow--) {
+        for (int i = 0; i < 3; i++)
+            arr[i].clear();
 
         for (int i = 0; i < 3; i++) {
-            arr[i].clear();
+
             int archerCol = archer[i];
 
+            // 궁수 위 칸에서의 사정거리 내 적 찾기.
             for (int row = archerRow - 1; row >= max(0, archerRow - d); row--) {
                 for (int col = 0; col < m; col++) {
                     if (copyMap[row][col]) {
                         int cost = abs(archerRow - row) + abs(archerCol - col);
+
                         if (cost <= d)
                             arr[i].push_back({ cost, row, col });
                     }
@@ -66,16 +72,20 @@ int calcRemove(vector<int> archer)
             }
             sort(arr[i].begin(), arr[i].end(), cmp);
         }
-        set<pi> countOfRemover;
+
+        // 찾은 적 제거하기.
         for (int i = 0; i < 3; i++) {
             if (arr[i].size() == 0)
                 continue;
             int nx = arr[i][0].x, ny = arr[i][0].y;
 
             copyMap[nx][ny] = 0;
-            countOfRemover.insert({ nx, ny });
+            countOfRemover.push_back({ nx, ny });
         }
+        sort(countOfRemover.begin(), countOfRemover.end());
+        countOfRemover.erase(unique(countOfRemover.begin(), countOfRemover.end()), countOfRemover.end());
         cnt += countOfRemover.size();
+        countOfRemover.clear();
     }
 
     return cnt;
@@ -88,7 +98,7 @@ void dfs(int num, vector<int> arr)
         return;
     }
 
-    for (int i = num; i < n; i++) {
+    for (int i = num; i < m; i++) {
         if (!v[i]) {
             v[i] = 1;
             arr.push_back(i);
