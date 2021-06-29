@@ -1,2 +1,5 @@
 *.exe
 .vscode/
+.idea
+Catch_Study.iml
+*.class
